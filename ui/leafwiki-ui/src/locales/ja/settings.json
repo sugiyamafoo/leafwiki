@@ -1,0 +1,52 @@
+{
+  "exit": "設定を終了",
+  "nav": {
+    "title": "設定",
+    "account": "アカウント"
+  },
+  "account": {
+    "pageTitle": "アカウント",
+    "avatar": {
+      "sectionTitle": "プロフィール画像",
+      "sectionDescription": "画像をアップロードして、アカウントをカスタマイズします。",
+      "currentLabel": "現在の画像：",
+      "uploadButton": "画像をアップロード",
+      "deleteButton": "画像を削除",
+      "hint": "使用できる形式：{{exts}}。最大サイズ：{{size}}。",
+      "uploadSuccess": "プロフィール画像をアップロードしました",
+      "uploadFailed": "プロフィール画像をアップロードできませんでした",
+      "deleteSuccess": "プロフィール画像を削除しました",
+      "deleteFailed": "プロフィール画像を削除できませんでした"
+    },
+    "passwordSectionTitle": "パスワード",
+    "passwordSectionDescription": "パスワードを変更します。忘れないようにしてください。",
+    "twoFactorSectionTitle": "二要素認証",
+    "twoFactorSectionDescription": "アカウントのセキュリティーを強化します。",
+    "preferences": {
+      "sectionTitle": "環境設定",
+      "sectionDescription": "編集に関する設定です。お使いのすべての端末で同期されます。",
+      "autoSaveLabel": "自動保存を有効にする",
+      "autoSaveDescription": "ページの編集中に、変更を自動で保存します。",
+      "savedToast": "設定を保存しました",
+      "autoSaveToggleError": "自動保存の設定を更新できませんでした",
+      "languageLabel": "言語",
+      "languageChangeError": "言語の設定を更新できませんでした",
+      "dateFormatLabel": "日付の形式",
+      "dateFormatChangeError": "日付の形式を更新できませんでした",
+      "timeFormatLabel": "時刻の形式",
+      "timeFormatChangeError": "時刻の形式を更新できませんでした",
+      "dateFormat": {
+        "locale": "言語に合わせる",
+        "iso": "2026-08-27",
+        "dmyDot": "27.08.2026",
+        "mdySlash": "08/27/2026",
+        "dmySlash": "27/08/2026"
+      },
+      "timeFormat": {
+        "locale": "言語に合わせる",
+        "h24": "24時間表記（14:30）",
+        "h12": "12時間表記（2:30 PM）"
+      }
+    }
+  }
+}

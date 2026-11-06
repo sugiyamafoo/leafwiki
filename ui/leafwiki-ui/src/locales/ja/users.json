@@ -1,0 +1,124 @@
+{
+  "pageTitle": "ユーザー管理",
+  "loading": "ユーザーを読み込んでいます…",
+  "loadErrorFallback": "ユーザーの読み込み中にエラーが発生しました",
+  "noUsersFound": "ユーザーが見つかりません。",
+  "columns": {
+    "username": "ユーザー名",
+    "email": "メールアドレス",
+    "role": "ロール",
+    "actions": "操作"
+  },
+  "actions": {
+    "edit": "編集",
+    "new": "ユーザーを作成",
+    "changePassword": "パスワードを変更",
+    "delete": "削除"
+  },
+  "invite": {
+    "pendingPill": "招待中",
+    "resendAction": "招待を再送",
+    "resending": "再送しています…",
+    "resendSuccessToast": "招待メールを再送しました",
+    "resendErrorFallback": "招待の再送中にエラーが発生しました",
+    "emailNotSentWarning": "ユーザーを作成しましたが、招待メールを送信できませんでした。「招待を再送」からもう一度お試しください。"
+  },
+  "validation": {
+    "passwordTooShort": "パスワードは8文字以上で入力してください",
+    "passwordsDoNotMatch": "パスワードが一致しません"
+  },
+  "changePasswordDialog": {
+    "title": "{{username}}のパスワードを変更",
+    "description": "このユーザーの新しいパスワードを設定します。",
+    "cancel": "キャンセル",
+    "update": "パスワードを更新",
+    "updating": "更新しています…",
+    "newPasswordLabel": "新しいパスワード",
+    "confirmPasswordLabel": "パスワード（確認）",
+    "successToast": "パスワードを変更しました",
+    "errorFallback": "パスワードの更新中にエラーが発生しました"
+  },
+  "userForm": {
+    "editTitle": "ユーザーを編集",
+    "newTitle": "ユーザーを作成",
+    "editDescription": "ユーザーの詳細を編集します",
+    "newDescription": "新しいユーザーを作成します",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "successToast": "ユーザーを保存しました",
+    "errorFallback": "ユーザーの保存中にエラーが発生しました",
+    "usernameLabel": "ユーザー名",
+    "usernamePlaceholder": "ユーザー名",
+    "emailLabel": "メールアドレス",
+    "emailPlaceholder": "メールアドレス",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "パスワード",
+    "rolePlaceholder": "ロールを選択",
+    "roleViewer": "閲覧者",
+    "roleEditor": "編集者",
+    "roleAdmin": "管理者",
+    "modeSetPassword": "今すぐパスワードを設定する",
+    "modeInvite": "招待メールを送る",
+    "inviteSuccessToast": "招待を送信しました"
+  },
+  "deleteUser": {
+    "title": "ユーザーを削除しますか？",
+    "description": "このユーザーを削除してもよろしいですか？ この操作は取り消せません。",
+    "cancel": "キャンセル",
+    "deleting": "削除しています…",
+    "delete": "削除",
+    "successToast": "ユーザーを削除しました",
+    "errorFallback": "ユーザーを削除できませんでした。もう一度お試しください。",
+    "body": "ユーザー<strong>{{username}}</strong>は、システムから完全に削除されます。"
+  },
+  "changeOwnPassword": {
+    "title": "自分のパスワードを変更",
+    "description": "パスワードを変更します。忘れないようにしてください。",
+    "cancel": "キャンセル",
+    "saving": "保存しています…",
+    "save": "保存",
+    "successToast": "パスワードを変更しました",
+    "errorFallback": "パスワードの更新中にエラーが発生しました",
+    "oldPasswordLabel": "現在のパスワード",
+    "newPasswordLabel": "新しいパスワード",
+    "confirmPasswordLabel": "パスワード（確認）"
+  },
+  "totp": {
+    "column": "二要素認証",
+    "enabled": "有効",
+    "disabled": "無効",
+    "menuEnable": "二要素認証を有効にする",
+    "menuDisable": "二要素認証を無効にする",
+    "cancel": "キャンセル",
+    "setup": {
+      "passwordStepTitle": "二要素認証を有効にする",
+      "passwordStepDescription": "設定を始めるため、現在のパスワードを入力してください。",
+      "passwordPlaceholder": "現在のパスワード",
+      "continue": "続行",
+      "continuing": "確認しています…",
+      "verifyStepTitle": "QRコードをスキャン",
+      "verifyStepDescription": "認証アプリでこのQRコードをスキャンするか、キーを手動で入力してください。そのあと、アプリに表示される6桁のコードを入力します。",
+      "manualKeyLabel": "手動入力用のキー",
+      "codePlaceholder": "6桁のコード",
+      "enable": "有効にする",
+      "enabling": "確認しています…",
+      "recoveryStepTitle": "リカバリーコードを保存",
+      "recoveryStepDescription": "これらのコードを安全な場所に保管してください。認証アプリを使えなくなったときは、コードを1回ずつ使ってログインできます。コードは再表示されません。",
+      "copyRecoveryCodes": "コードをコピー",
+      "recoveryCodesCopied": "リカバリーコードをクリップボードにコピーしました",
+      "done": "完了",
+      "successToast": "二要素認証を有効にしました",
+      "errorFallback": "二要素認証を有効にできませんでした"
+    },
+    "disable": {
+      "title": "二要素認証を無効にする",
+      "description": "現在のパスワードと、認証アプリのコードまたはリカバリーコードを入力してください。",
+      "passwordPlaceholder": "現在のパスワード",
+      "codePlaceholder": "コードまたはリカバリーコード",
+      "confirm": "無効にする",
+      "disabling": "無効にしています…",
+      "successToast": "二要素認証を無効にしました",
+      "errorFallback": "二要素認証を無効にできませんでした"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "menuLabel": "公開アクセス",
+  "pageTitle": "公開アクセス",
+  "sectionTitle": "公開モード",
+  "sectionDescription": "公開モードをオンにすると、すべてのページをサインインなしで閲覧できます。編集にはアカウントが必要です。",
+  "statusOn": "公開モードはオンです。すべてのページをサインインなしで閲覧できます。",
+  "statusOff": "公開モードはオフです。ページを閲覧するには、サインインが必要です。",
+  "enableButton": "公開モードをオンにする",
+  "disableButton": "公開モードをオフにする",
+  "confirmTitle": "すべてのページを公開しますか？",
+  "confirmDescription": "このサイトにアクセスできる人は誰でも、アカウントなしですべてのページを閲覧できるようになります。公開モードは、いつでもオフに戻せます。",
+  "confirmAction": "公開モードをオンにする",
+  "cancel": "キャンセル",
+  "enabledToast": "公開モードをオンにしました",
+  "disabledToast": "公開モードをオフにしました",
+  "updateError": "公開モードを更新できませんでした",
+  "envManagedTitle": "環境設定で指定されています",
+  "envManagedDescription": "公開モードは、このインスタンスのLEAFWIKI_PUBLIC_ACCESS／--public-access設定（または--disable-auth）で制御されており、変更できるのもそこだけです。"
+}

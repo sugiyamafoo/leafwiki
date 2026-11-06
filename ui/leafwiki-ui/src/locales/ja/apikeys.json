@@ -1,0 +1,61 @@
+{
+  "menu": {
+    "title": "APIキー"
+  },
+  "page": {
+    "title": "APIキー",
+    "heading": "APIキー",
+    "loadErrorFallback": "APIキーの読み込み中にエラーが発生しました"
+  },
+  "table": {
+    "name": "名前",
+    "owner": "所有者",
+    "role": "ロール",
+    "expires": "有効期限",
+    "lastUsed": "最終使用",
+    "actions": "操作",
+    "loading": "APIキーを読み込んでいます…",
+    "empty": "APIキーが見つかりません。",
+    "revoked": "失効済み"
+  },
+  "role": {
+    "admin": "管理者",
+    "editor": "編集者",
+    "viewer": "閲覧者"
+  },
+  "create": {
+    "button": "APIキーを作成",
+    "title": "APIキーの作成",
+    "description": "自動化やエージェントからのアクセスに使うAPIキーを作成します。",
+    "nameLabel": "名前",
+    "namePlaceholder": "例：research-agent",
+    "userPlaceholder": "所有ユーザーを選択",
+    "expiresLabel": "有効期限（任意）",
+    "roleHelper": "現在、新しいキーは閲覧者（読み取り専用）になります。",
+    "cancel": "キャンセル",
+    "submit": "作成",
+    "successToast": "APIキーを作成しました",
+    "errorFallback": "APIキーの作成中にエラーが発生しました"
+  },
+  "secret": {
+    "title": "APIキーを作成しました",
+    "description": "このキーは再表示されません。今のうちにコピーしてください。",
+    "label": "シークレット",
+    "copy": "コピー",
+    "copiedToast": "クリップボードにコピーしました",
+    "copyErrorToast": "クリップボードにコピーできませんでした",
+    "helper": "キーの全体が表示されるのは今回だけです。安全な場所に保管してください。",
+    "done": "完了"
+  },
+  "delete": {
+    "button": "失効",
+    "title": "APIキーを失効させますか？",
+    "description": "このAPIキーを失効させてもよろしいですか？ この操作は取り消せません。",
+    "body": "APIキー<strong>{{name}}</strong>は直ちに使えなくなります。このキーを使っているエージェントや自動化処理は、アクセスできなくなります。",
+    "cancel": "キャンセル",
+    "confirm": "失効させる",
+    "confirming": "失効させています…",
+    "successToast": "APIキーを失効させました",
+    "errorFallback": "APIキーを失効させることができませんでした。もう一度お試しください。"
+  }
+}

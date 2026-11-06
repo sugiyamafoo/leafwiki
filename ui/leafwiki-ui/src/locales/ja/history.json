@@ -1,0 +1,108 @@
+{
+  "common": {
+    "unknown": "不明",
+    "unknownTime": "日時不明"
+  },
+  "errors": {
+    "loadListFallback": "ページの履歴を読み込めませんでした",
+    "loadPreviewFallback": "リビジョンのプレビューを読み込めませんでした",
+    "compareFallback": "リビジョンを比較できませんでした",
+    "loadMoreFallback": "ほかのリビジョンを読み込めませんでした"
+  },
+  "trigger": {
+    "contentUpdate": "内容の更新後に保存",
+    "assetUpdate": "ファイルの更新後に保存",
+    "structureUpdate": "構造の更新後に保存",
+    "restore": "復元後に保存",
+    "delete": "削除前に保存",
+    "generic": "{{type}}として保存"
+  },
+  "assetChange": {
+    "added": "追加",
+    "removed": "削除",
+    "replaced": "置換"
+  },
+  "restoreDialog": {
+    "title": "リビジョンを復元しますか？",
+    "description": "リビジョンの内容、タイトル、ファイルを復元します。現在のスラッグと場所は変更されません。",
+    "cancel": "キャンセル",
+    "confirm": "リビジョンを復元",
+    "restoredTitleLabel": "復元後のタイトル：",
+    "slugNote": "このリビジョンのスラッグは<mono>{{revisionSlug}}</mono>でした。現在のスラッグ<mono>{{currentSlug}}</mono>は変更されません。"
+  },
+  "diff": {
+    "noTextDifference": "このリビジョンと現在のバージョンとの間に、テキストの差分はありません。"
+  },
+  "changes": {
+    "summaryHeading": "変更の概要",
+    "linesAdded": "追加された行（以降）",
+    "linesRemoved": "削除された行（以降）",
+    "assetsChanged": "変更されたファイル",
+    "diffHeading": "差分",
+    "diffNote": "現在のバージョンとの比較",
+    "assetsDetails": "ファイル（{{count}}）",
+    "assetAdded": "{{count}}件追加",
+    "assetReplaced": "{{count}}件置換",
+    "assetRemoved": "{{count}}件削除"
+  },
+  "rawText": {
+    "heading": "元のテキスト",
+    "empty": "（空）"
+  },
+  "assetsPanel": {
+    "heading": "ファイル",
+    "empty": "このリビジョンには、保存されたファイルがありません。",
+    "octetStream": "application/octet-stream",
+    "openAsset": "ファイルを開く",
+    "downloadAsset": "ファイルをダウンロード"
+  },
+  "tabs": {
+    "preview": "プレビュー",
+    "changes": "変更点",
+    "raw": "元のテキスト",
+    "assets": "ファイル",
+    "mobileRevisions": "リビジョン",
+    "mobileDetails": "詳細"
+  },
+  "detail": {
+    "loadingHistory": "履歴を読み込んでいます…",
+    "noRevisionSelectedTitle": "リビジョンが選択されていません",
+    "noRevisionSelectedMessage": "一覧からリビジョンを選ぶと、詳細が表示されます。",
+    "loadingDiff": "差分を読み込んでいます…",
+    "loadingPreview": "プレビューを読み込んでいます…",
+    "noPreview": "表示できるプレビューがありません。",
+    "noChangesFromCurrent": "現在のバージョンとの違いはありません。",
+    "noComparisonData": "表示できる比較データがありません。",
+    "noRawText": "表示できる元のテキストがありません。",
+    "noAssetData": "表示できるファイルのデータがありません。"
+  },
+  "list": {
+    "loading": "履歴を読み込んでいます…",
+    "emptyWithLatest": "以前のリビジョンはまだありません。変更を重ねると、古いバージョンがここに表示されます。",
+    "emptyNoLatest": "リビジョンはまだありません。ページが変更されると、ここに表示されます。",
+    "activeVersionBadge": "現在のバージョン",
+    "loadMoreLoading": "読み込んでいます…",
+    "loadMore": "さらに読み込む",
+    "resizeAriaLabel": "リビジョン一覧のサイズを変更",
+    "title": "リビジョン履歴"
+  },
+  "header": {
+    "revisionBy": "{{author}}によるリビジョン · {{time}}",
+    "restoreLoading": "復元しています…",
+    "currentVersion": "現行バージョン",
+    "restore": "復元",
+    "titleLabel": "タイトル",
+    "slugLabel": "スラッグ",
+    "emptyValue": "（空）"
+  },
+  "chips": {
+    "revisionSlug": "リビジョンのスラッグ：{{slug}}",
+    "currentSlug": "現在のスラッグ：{{slug}}",
+    "assetChangesCount": "ファイルの変更{{count}}件",
+    "assetsCount": "ファイル{{count}}件"
+  },
+  "toasts": {
+    "restoreSuccess": "リビジョンを復元しました",
+    "restoreErrorFallback": "リビジョンを復元できませんでした"
+  }
+}

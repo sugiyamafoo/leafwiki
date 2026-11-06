@@ -1,0 +1,260 @@
+{
+  "layout": {
+    "toggleSidebar": "サイドバーの表示を切り替え",
+    "resizeSidebar": "サイドバーのサイズを変更",
+    "closeSidebar": "サイドバーを閉じる"
+  },
+  "breadcrumbs": {
+    "navAriaLabel": "パンくずリスト"
+  },
+  "section": {
+    "overviewTitle": "「{{title}}」の概要",
+    "overviewDescriptionBase": "このページは、セクションの標準の概要ページです。セクション内のページとセクションを一覧表示します。",
+    "overviewDescriptionEditorHint": "このページを編集すると、セクションの開始ページを自由に設定できます。",
+    "overviewDescriptionReadOnly": "このページは、セクションの概要として自動生成されたものです。",
+    "emptyTitle": "このセクションは空です。",
+    "emptyDescriptionEditor": "セクション「{{title}}」には、まだページもセクションもありません。新しいページを追加するか、新しいセクションを作成して始めましょう。",
+    "emptyDescriptionReadOnly": "セクション「{{title}}」には、まだページもセクションもありません。",
+    "addPage": "ページを追加",
+    "addSection": "セクションを追加",
+    "subpagesAriaLabel": "{{title}}のサブページ",
+    "sectionSuffix": "（セクション）",
+    "updatedByLabel": "{{editor}}が更新 · {{time}}",
+    "updatedLabel": "{{time}}に更新"
+  },
+  "markdownPreview": {
+    "renderError": "このページには、安全に表示できないMarkdownが含まれています。",
+    "brokenLinkTooltip": "このページは、まだ存在しません。"
+  },
+  "mermaid": {
+    "renderError": "Mermaidの図を表示できません。",
+    "chunkLoadError": "LeafWikiの新しいバージョンが公開されているため、この図を読み込めませんでした。ページを再読み込みすると解決します。",
+    "noSvgOutput": "Mermaidの出力にSVG要素がありません"
+  },
+  "headline": {
+    "linkToSection": "セクションへのリンク"
+  },
+  "backlinks": {
+    "errorPrefix": "エラー：{{error}}",
+    "pageIdRequired": "ページIDが必要です",
+    "fetchFailedFallback": "リンクの状態を取得できませんでした",
+    "referencedBy": "参照元",
+    "loading": "読み込んでいます…",
+    "noReferences": "このページを参照しているページはありません。",
+    "brokenLinks": "リンク切れ",
+    "noBrokenLinks": "リンク切れはありません。",
+    "brokenOutgoingsTitle": "このページには、存在しないリンク先があります",
+    "brokenIncomingTitle": "古いパスにリンクしているページ"
+  },
+  "pinned": {
+    "sectionTitle": "ピン留め",
+    "pagesSectionTitle": "ページ",
+    "pinPage": "ピン留め",
+    "unpinPage": "ピン留めを外す",
+    "pinSuccess": "ページをピン留めしました",
+    "unpinSuccess": "ページのピン留めを外しました",
+    "pinError": "ピン留めの状態を更新できませんでした",
+    "togglePinnedSection": "ピン留めしたページの表示を切り替え",
+    "togglePagesSection": "ページの表示を切り替え",
+    "unpinPageAriaLabel": "ページのピン留めを外す"
+  },
+  "favorites": {
+    "sectionTitle": "お気に入り",
+    "addFavorite": "お気に入りに追加",
+    "removeFavorite": "お気に入りから削除",
+    "addSuccess": "お気に入りに追加しました",
+    "removeSuccess": "お気に入りから削除しました",
+    "favoriteError": "お気に入りを更新できませんでした",
+    "toggleFavoritesSection": "お気に入りの表示を切り替え"
+  },
+  "toc": {
+    "title": "目次",
+    "onThisPage": "このページの内容",
+    "downloads": "添付ファイル",
+    "collapse": "目次を折りたたむ",
+    "expand": "目次を展開する"
+  },
+  "toolbar": {
+    "moreActions": "その他の操作",
+    "expandAll": "すべて展開",
+    "collapseAll": "すべて折りたたむ",
+    "sortPages": "ページを並べ替え",
+    "refresh": "エクスプローラーを更新",
+    "refreshSuccess": "エクスプローラーを更新しました",
+    "refreshError": "更新に失敗しました",
+    "refreshAlreadyRunning": "更新はすでに実行中です",
+    "refreshPullFailed": "リモートの変更をプルできませんでした",
+    "syncJobLostFallback": "同期のジョブが失われました。サーバーが再起動した可能性があります"
+  },
+  "pageToolbar": {
+    "itemPage": "ページ",
+    "itemSection": "セクション",
+    "editButton": "{{item}}を編集",
+    "shareButton": "{{item}}を共有",
+    "printButton": "{{item}}を印刷",
+    "copyButton": "{{item}}をコピー",
+    "deleteButton": "{{item}}を削除",
+    "historyButton": "{{item}}の履歴"
+  },
+  "treeActions": {
+    "loading": "読み込んでいます…",
+    "loadErrorPrefix": "エラー：{{error}}",
+    "createNewPageTooltip": "新しいページを作成",
+    "createNewSectionTooltip": "新しいセクションを作成",
+    "untitledPage": "無題のページ",
+    "convertedToast": "ページを変換しました",
+    "conflictRetryMessage": "このページは、ほかのユーザーによって変更されました。もう一度お試しください。",
+    "convertErrorFallback": "ページを変換できませんでした",
+    "renameEditingWarning": "この{{item}}は編集中です。名前を変更するには、エディターのタイトルバーを使ってください。",
+    "renamedToast": "{{item}}の名前を変更しました",
+    "renameErrorFallback": "ページの名前を変更できませんでした",
+    "deleteEditingWarning": "この{{item}}は編集中です。削除する前に、エディターを閉じてください。",
+    "menuAddPage": "ページを追加",
+    "menuAddSection": "セクションを追加",
+    "menuEdit": "{{item}}を編集",
+    "menuRename": "{{item}}の名前を変更",
+    "menuCopyPage": "ページをコピー",
+    "menuSortChildren": "{{item}}の子を並べ替え",
+    "menuMove": "{{item}}を移動",
+    "menuConvertToPage": "ページに変換",
+    "menuDelete": "{{item}}を削除",
+    "emptySectionToast": "「{{title}}」は空のセクションになりました",
+    "convertBackAction": "ページに戻す",
+    "convertedBackToast": "「{{title}}」はページに戻りました",
+    "convertBackErrorFallback": "セクションをページに戻せませんでした",
+    "reorderErrorFallback": "ページを並べ替えられませんでした",
+    "moveErrorFallback": "ページを移動できませんでした"
+  },
+  "codeBlock": {
+    "copyErrorToast": "コードをコピーできませんでした",
+    "copiedToast": "コードをコピーしました",
+    "copyTooltip": "コードをコピー",
+    "copiedTooltip": "コピーしました",
+    "copyAriaLabel": "コードをコピー",
+    "copiedAriaLabel": "コードをコピーしました"
+  },
+  "designToggle": {
+    "switchToLight": "ライトモードに切り替え",
+    "switchToDark": "ダークモードに切り替え"
+  },
+  "imagePreview": {
+    "openInNewTab": "新しいタブで開く"
+  },
+  "pdfEmbed": {
+    "defaultTitle": "PDF"
+  },
+  "pageSwitcher": {
+    "trigger": "ページへ移動",
+    "triggerWithHotkey": "ページへ移動（{{hotkey}}）",
+    "dialogTitle": "ページへ移動",
+    "dialogDescription": "既存のページを、タイトル、パス、パンくずリストで検索します。",
+    "searchPlaceholder": "ページのタイトルを入力…",
+    "searchAriaLabel": "ページを検索",
+    "noMatch": "一致するページが見つかりません。",
+    "matchingPagesAriaLabel": "一致するページ"
+  },
+  "metadata": {
+    "propertiesToggle": "プロパティー（{{count}}）"
+  },
+  "shortcutsHelp": {
+    "menuItem": "キーボードショートカット",
+    "title": "利用できるキーボードショートカット",
+    "description": "現在のページのモードで使えるショートカットの一覧です。",
+    "currentMode": "現在のページのモード：{{mode}}",
+    "dialogHint": "このダイアログを開いている間は、ダイアログ用のショートカットも含まれます。",
+    "closeButton": "閉じる",
+    "categories": {
+      "navigation": "移動",
+      "editing": "編集",
+      "viewing": "閲覧",
+      "dialogs": "ダイアログ"
+    },
+    "modes": {
+      "view": "閲覧",
+      "edit": "編集",
+      "history": "履歴",
+      "settings": "設定",
+      "dialog": "ダイアログ"
+    },
+    "items": {
+      "goToPage": {
+        "action": "ページへ移動"
+      },
+      "openShortcutsHelp": {
+        "action": "キーボードショートカットを開く"
+      },
+      "editPage": {
+        "action": "ページを編集"
+      },
+      "sharePage": {
+        "action": "ページを共有"
+      },
+      "printPage": {
+        "action": "ページを印刷"
+      },
+      "copyPage": {
+        "action": "ページをコピー"
+      },
+      "deletePage": {
+        "action": "ページを削除"
+      },
+      "pageHistory": {
+        "action": "ページの履歴"
+      },
+      "toggleToc": {
+        "action": "目次の表示を切り替え"
+      },
+      "openExplorer": {
+        "action": "エクスプローラーを開く"
+      },
+      "openSearch": {
+        "action": "検索を開く"
+      },
+      "savePage": {
+        "action": "ページを保存"
+      },
+      "closeEditor": {
+        "action": "エディターを閉じる"
+      },
+      "formatBold": {
+        "action": "太字にする"
+      },
+      "formatItalic": {
+        "action": "斜体にする"
+      },
+      "insertHeadingOne": {
+        "action": "見出し1を挿入"
+      },
+      "insertHeadingTwo": {
+        "action": "見出し2を挿入"
+      },
+      "insertHeadingThree": {
+        "action": "見出し3を挿入"
+      },
+      "formatInlineCode": {
+        "action": "インラインコードにする"
+      },
+      "insertLink": {
+        "action": "リンクを挿入"
+      },
+      "backToPage": {
+        "action": "ページに戻る"
+      },
+      "exitSettings": {
+        "action": "設定を終了"
+      },
+      "closeDialog": {
+        "action": "ダイアログを閉じる"
+      },
+      "confirmDialog": {
+        "action": "ダイアログの標準の操作"
+      },
+      "confirmRename": {
+        "action": "名前の変更を確定"
+      },
+      "cancelRename": {
+        "action": "名前の変更を取り消す"
+      }
+    }
+  }
+}

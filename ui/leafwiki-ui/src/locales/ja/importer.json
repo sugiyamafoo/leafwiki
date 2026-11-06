@@ -1,0 +1,171 @@
+{
+  "title": "インポート",
+  "toast": {
+    "planCreatedSuccess": "インポート計画を作成しました",
+    "createPlanErrorFallback": "インポート計画を作成できませんでした",
+    "loadPlanErrorFallback": "インポート計画を読み込めませんでした",
+    "noPlanToExecute": "実行するインポート計画がありません",
+    "executeSuccess": "インポートが完了しました",
+    "canceledSuccess": "インポートを中止しました",
+    "executionFailedFallback": "インポートの実行に失敗しました",
+    "executeErrorFallback": "インポート計画を実行できませんでした",
+    "noPlanToClear": "クリアするインポート計画がありません",
+    "canceledBeforeCompletion": "中止が完了する前に、インポートが終了しました",
+    "planClearedSuccess": "インポート計画をクリアしました",
+    "cancelOrClearErrorFallback": "インポート計画を中止またはクリアできませんでした",
+    "unexpectedCancelResponse": "インポート中止の応答が想定外の内容でした"
+  },
+  "planActions": {
+    "create": "ページを作成",
+    "update": "ページを更新",
+    "skip": "項目をスキップ"
+  },
+  "resultActions": {
+    "needsAttention": "要確認",
+    "created": "作成済み",
+    "updated": "更新済み",
+    "skipped": "スキップ済み",
+    "conflicted": "競合"
+  },
+  "steps": {
+    "selectZip": {
+      "title": "zipを選択",
+      "description": "インポートするパッケージを選びます。"
+    },
+    "reviewPlan": {
+      "title": "計画を確認",
+      "description": "生成されたページとパスを確認します。"
+    },
+    "runImport": {
+      "title": "インポートを実行",
+      "description": "インポート中の進捗を確認します。"
+    },
+    "reviewResult": {
+      "title": "結果を確認",
+      "description": "インポートされた項目、スキップされた項目、失敗した項目を確認します。"
+    }
+  },
+  "nextAction": {
+    "chooseZip": "zipファイルを選んで、インポート計画を作成してください。",
+    "reviewThenStart": "生成された項目を確認してから、インポートを開始してください。",
+    "cancellationRequested": "中止を要求しました。現在の項目の処理が終わると、インポートを停止します。",
+    "running": "インポートを実行中です。このページを開いたまま、進捗の更新を確認できます。",
+    "completed": "インポートが完了しました。下の結果を確認するか、別のzipパッケージで新しいインポートを開始してください。",
+    "failed": "インポートがエラーで停止しました。下のメッセージと結果の項目を確認してください。",
+    "canceled": "インポートを中止しました。完了した分は保持され、下に表示されています。",
+    "selectZipToBegin": "zipファイルを選んで開始してください。"
+  },
+  "beforeYouStart": {
+    "title": "始める前に",
+    "description": "Markdownファイルを含むzipアーカイブをインポートします。LeafWikiは最初に確認用の計画を作成し、実行の手順を明示的に開始した後にのみ、ページをインポートします。",
+    "whatHappensNext": "このあとの流れ",
+    "stepPrefix": "手順{{number}}",
+    "safeReviewTitle": "まず安全に確認",
+    "safeReviewText": "計画を作成しても、ページはまだインポートされません。",
+    "linksAssetsTitle": "リンクとファイル",
+    "linksAssetsText": "内部リンクと埋め込まれたファイルは、インポート時に書き換えられます。",
+    "alphaTitle": "アルファ版です",
+    "alphaText": "Markdownの方言によっては、インポート後に手作業での修正が必要になる場合があります。"
+  },
+  "flow": {
+    "title": "インポートの流れ"
+  },
+  "package": {
+    "title": "インポートするパッケージを選択",
+    "description": "Markdownファイルを含むzipアーカイブを選びます。その後、プレビュー用の計画を作成します。インポートの実行前に、パス、処理内容、注意事項を確認できます。",
+    "issueHint": "問題や想定外の結果、未対応のケースがあった場合は、<link>GitHubリポジトリー</link>でIssueを作成してください。",
+    "currentZip": "現在のzip：",
+    "noZipSelected": "zipファイルが選択されていません",
+    "selectZipFile": "zipファイルを選択",
+    "supportedInputHint": "対応する入力：Markdownのナレッジベースを含む、単一の`.zip`アーカイブ。",
+    "importFromZip": "zipからインポート",
+    "planOnlyHint": "ここでは確認用の計画を作成するだけです。「インポート計画を実行」を押すまで、ページはインポートされません。"
+  },
+  "plan": {
+    "title": "インポート計画",
+    "description": "インポートを開始する前に、LeafWikiが作成・更新・スキップする内容を確認します。",
+    "currentStatus": "現在の状態",
+    "planId": "計画ID：{{id}}",
+    "progress": "進捗：{{progress}}",
+    "percentComplete": "{{percent}}%完了",
+    "willCreate": "作成予定",
+    "willUpdate": "更新予定",
+    "willSkip": "スキップ予定",
+    "runningCancelRequested": "中止を要求しました。現在の項目の処理が終わると、インポートを停止します。",
+    "runningInBackground": "インポートはバックグラウンドで実行中です。このページを開いたまま、進捗を確認できます。",
+    "currentlyProcessing": " 現在、{{path}}を処理しています。",
+    "canceledNotice": "インポートを中止しました。完了した項目は保持され、一部の結果が下に表示されています。",
+    "idLabel": "ID：",
+    "treeHashLabel": "ツリーのハッシュ：",
+    "progressLabel": "進捗：",
+    "startedAtLabel": "開始日時：",
+    "finishedAtLabel": "終了日時：",
+    "startNewImport": "新しいインポートを開始",
+    "closeAndClear": "閉じてクリア"
+  },
+  "plannedItems": {
+    "title": "予定されている項目（{{count}}）",
+    "description": "パッケージ内でLeafWikiが検出した個々のファイルと、対応先のページです。",
+    "importFile": "インポートするファイル",
+    "targetPage": "対象ページ",
+    "titleColumn": "タイトル",
+    "type": "種別",
+    "plannedAction": "予定している処理",
+    "notesForReview": "確認時の注意事項",
+    "noSpecialNotes": "特記事項なし"
+  },
+  "run": {
+    "title": "インポートを実行",
+    "descriptionPlan": "計画に問題がなければ、インポートを開始してください。現在の計画をクリアして、別のパッケージで最初からやり直すこともできます。",
+    "descriptionRunning": "生成された計画に沿って、インポートを実行しています。このページを開いたまま、進捗を確認したり、中止を要求したりできます。",
+    "currentStatus": "現在の状態",
+    "importRunning": "インポート実行中",
+    "executeImportPlan": "インポート計画を実行",
+    "cancelRequested": "中止を要求済み",
+    "cancelImport": "インポートを中止",
+    "clearImportPlan": "インポート計画をクリア"
+  },
+  "result": {
+    "title": "インポート結果",
+    "description": "インポートの最終結果です。スキップされた項目は、通常は手動での確認が必要です。失敗した項目は、再試行する前に対応が必要です。",
+    "wantAnotherTitle": "別のパッケージをインポートしますか？",
+    "wantAnotherBody": "新しいインポートを開始すると、この結果がクリアされ、別のzipファイルを選べます。",
+    "created": "作成済み",
+    "skipped": "スキップ済み",
+    "failed": "失敗",
+    "treeUpdated": "ツリーを更新",
+    "yes": "はい",
+    "no": "いいえ",
+    "importedCount": "インポート件数：",
+    "updatedCount": "更新件数：",
+    "skippedCount": "スキップ件数："
+  },
+  "resultItems": {
+    "title": "結果の項目（{{filtered}}/{{total}}）",
+    "description": "フィルターを使うと、成功したインポート、スキップされた項目、失敗した項目に絞り込めます。",
+    "filterPlaceholder": "パス、処理、エラーで絞り込み",
+    "importedFile": "インポートしたファイル",
+    "resultingPage": "作成されたページ",
+    "outcome": "結果",
+    "details": "詳細",
+    "detailImported": "インポートに成功しました",
+    "detailUpdated": "既存のページを更新しました",
+    "detailSkipped": "エラーなしでスキップしました",
+    "detailNone": "追加の詳細はありません",
+    "noItemsMatch": "現在のフィルターに一致する項目がありません。",
+    "filter": {
+      "all": "すべて",
+      "created": "作成済み",
+      "skipped": "スキップ済み",
+      "failed": "失敗"
+    }
+  },
+  "status": {
+    "running": "実行中",
+    "completed": "完了",
+    "canceled": "中止",
+    "failed": "失敗",
+    "planned": "計画済み",
+    "idle": "待機中"
+  }
+}

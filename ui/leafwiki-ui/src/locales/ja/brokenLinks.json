@@ -1,0 +1,30 @@
+{
+  "menuLabel": "リンク切れ",
+  "pageTitle": "リンク切れ",
+  "title": "リンク切れ",
+  "description": "存在しないウィキのページにリンクしているページを検出します。",
+  "heading": "存在しないページ",
+  "sortLabel": "アルファベット順に表示",
+  "linksTo": "リンク先：",
+  "loading": "リンク切れを読み込んでいます…",
+  "button": {
+    "text": "更新",
+    "refreshing": "更新しています…"
+  },
+  "summaryCard": {
+    "broken": "リンク切れ",
+    "missing": "存在しないページ",
+    "affected": "影響を受けるページ"
+  },
+  "groupCard": {
+    "reference": "件の参照",
+    "references": "件の参照"
+  },
+  "empty": {
+    "title": "リンク切れはありません",
+    "description": "ウィキ内のすべてのリンクが、存在するページを指しています。"
+  },
+  "error": {
+    "loadFailed": "リンク切れを読み込めませんでした。"
+  }
+}

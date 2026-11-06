@@ -1,0 +1,10 @@
+{
+  "menuLabel": "目次",
+  "pageTitle": "目次",
+  "sectionTitle": "目次",
+  "sectionDescription": "ページの閲覧中に、「このページの内容」の目次を表示する条件を設定します。",
+  "checkboxLabel": "目次を常に表示する",
+  "checkboxDescription": "初期設定では、見出しが3つを超えるページにのみ目次を表示します。これをオンにすると、見出しが1つか2つしかないページでも、常に目次を表示します。",
+  "savedToast": "目次の設定を保存しました",
+  "updateError": "目次の設定を更新できませんでした"
+}

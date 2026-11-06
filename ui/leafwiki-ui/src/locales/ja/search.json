@@ -1,0 +1,32 @@
+{
+  "input": {
+    "placeholder": "検索…",
+    "clearButton": "クリア"
+  },
+  "tags": {
+    "accordionTitle": "すべてのタグ",
+    "available_one": "利用できるタグ：{{count}}件",
+    "available_other": "利用できるタグ：{{count}}件",
+    "selected_one": "選択中のタグ：{{count}}件",
+    "selected_other": "選択中のタグ：{{count}}件",
+    "loading": "タグを読み込んでいます…",
+    "error": "タグを読み込めませんでした。",
+    "clearFilter": "タグの絞り込みを解除"
+  },
+  "results": {
+    "loading": "結果を読み込んでいます…",
+    "noResults": "結果が見つかりません。",
+    "resultSummary_one": "検索結果<bold>{{count}}</bold>件：",
+    "resultSummary_other": "検索結果<bold>{{count}}</bold>件：",
+    "filterQuery": "「{{query}}」",
+    "filterQueryWithTags_one": "「{{query}}」、タグ{{count}}件",
+    "filterQueryWithTags_other": "「{{query}}」、タグ{{count}}件",
+    "filterTagged": "タグ「{{tag}}」付き",
+    "filterTaggedWith_one": "タグ{{count}}件付き",
+    "filterTaggedWith_other": "タグ{{count}}件付き"
+  },
+  "resultCard": {
+    "kindPage": "ページ",
+    "kindSection": "セクション"
+  }
+}

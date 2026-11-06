@@ -1,0 +1,132 @@
+{
+  "wikiLinkDisambiguation": {
+    "title": "複数のページが見つかりました",
+    "descriptionPrefix": "一致するページが複数あります：",
+    "descriptionSuffix": "。目的のページを選択してください。"
+  },
+  "slugInput": {
+    "label": "スラッグ",
+    "placeholder": "ページのスラッグ",
+    "generateErrorFallback": "スラッグの生成中にエラーが発生しました"
+  },
+  "addPageDialog": {
+    "dateTitleTooltip": "タイトルを今日の日付にする"
+  },
+  "editPageMetadataDialog": {
+    "dialogTitle": "{{item}}のメタデータを編集",
+    "dialogDescription": "{{item}}のメタデータを変更します",
+    "titleLabel": "タイトル",
+    "titlePlaceholder": "{{item}}のタイトル",
+    "pathPrefix": "パス：",
+    "cancelButton": "キャンセル",
+    "saveButton": "変更",
+    "dateTitleTooltip": "タイトルを今日の日付にする"
+  },
+  "toolbar": {
+    "closeEditorButton": "エディターを閉じる",
+    "savePageButton": "ページを保存",
+    "boldTooltip": "太字（Ctrl+B）",
+    "italicTooltip": "斜体（Ctrl+I）",
+    "strikethroughTooltip": "取り消し線",
+    "highlightTooltip": "ハイライト",
+    "linkTooltip": "リンク（Ctrl+K）",
+    "heading1Tooltip": "見出し1（Ctrl+Alt+1）",
+    "heading2Tooltip": "見出し2（Ctrl+Alt+2）",
+    "heading3Tooltip": "見出し3（Ctrl+Alt+3）",
+    "tableTooltip": "表",
+    "tableSizeSelect": "サイズを選択",
+    "tableSizeLabel": "{{col}} × {{row}}",
+    "tableInsertAriaLabel": "{{col}} × {{row}}の表を挿入",
+    "codeBlockTooltip": "コードブロック",
+    "inlineCodeTooltip": "インラインコード（Ctrl+`）",
+    "imageTooltip": "ファイル管理",
+    "attachmentsButton": "添付ファイル",
+    "undoTooltip": "元に戻す",
+    "redoTooltip": "やり直す",
+    "lineWrapEnableTooltip": "行の折り返しを有効にする",
+    "lineWrapDisableTooltip": "行の折り返しを無効にする",
+    "moreOptionsAriaLabel": "その他の書式オプション",
+    "previewSplitTooltip": "プレビューを左右に並べて表示",
+    "previewStackedTooltip": "プレビューを上下に並べて表示",
+    "showPreviewTooltip": "プレビューを表示",
+    "hidePreviewTooltip": "プレビューを非表示",
+    "pasteRichTooltip": "書式付きで貼り付け（Ctrl+Shift+V）",
+    "pastePlainTooltip": "書式なしで貼り付け（Ctrl+V）",
+    "pasteRich": "書式付きで貼り付け",
+    "pastePlain": "書式なしで貼り付け",
+    "pasteClipboardError": "クリップボードの内容を読み取れませんでした",
+    "strikethrough": "取り消し線",
+    "highlight": "ハイライト",
+    "heading1": "見出し1",
+    "heading2": "見出し2",
+    "heading3": "見出し3",
+    "insertTable": "表を挿入（3×3）",
+    "lineWrap": "行の折り返し",
+    "autoSave": "自動保存",
+    "autoSavePaused": "一時停止中"
+  },
+  "pageEditor": {
+    "savedToast": "ページを保存しました",
+    "saveErrorFallback": "ページの保存中にエラーが発生しました",
+    "saveAnyway": "このまま保存する",
+    "conflictAgainMessage": "保存中にページが再び変更されました。ページを再読み込みして、変更をやり直してください。",
+    "errorPrefix": "エラー：{{error}}",
+    "metadataErrorsBeforeSave": "保存する前に、メタデータのエラーを修正してください。",
+    "contentNullFallback": "更新後のページ内容がnullまたはundefinedです",
+    "unknownErrorFallback": "不明なエラーが発生しました"
+  },
+  "linkInsertDialog": {
+    "dialogTitle": "リンクを挿入",
+    "displayTextLabel": "表示テキスト",
+    "urlLabel": "URL",
+    "textPlaceholder": "リンクのテキスト",
+    "urlPlaceholder": "https:// またはページを検索…",
+    "cancelButton": "キャンセル",
+    "insertButton": "挿入"
+  },
+  "frontmatterPanel": {
+    "metadataTitle": "メタデータ",
+    "tagsHeading": "タグ",
+    "propertiesHeading": "プロパティー",
+    "removeFieldAriaLabel": "フロントマターのフィールド{{field}}を削除",
+    "addTagPlaceholder": "タグを追加",
+    "keyPlaceholder": "キー",
+    "valuePlaceholder": "値",
+    "internalFieldsToggle": "内部フィールド",
+    "addPropertyButton": "プロパティーを追加",
+    "flatHint": "当面は、フィールドを階層化せず平らに保ってください。階層化したメタデータが必要な場合は、<code>seo.title</code>のようにドットでつないだキーを使います。",
+    "unsupportedNotice": "既存の高度なフロントマターはそのまま保持されますが、このコンパクト表示ではまだ編集できません。"
+  },
+  "tagInput": {
+    "loading": "読み込んでいます…",
+    "noMatchingTags": "一致するタグが見つかりません。",
+    "removeTagAriaLabel": "タグ{{tag}}を削除"
+  },
+  "markdownEditor": {
+    "editorTab": "エディター",
+    "previewTab": "プレビュー",
+    "resizeAriaLabel": "エディターとプレビューのサイズを変更",
+    "fileTooLarge": "ファイルが大きすぎます。上限は{{maxSize}}です。",
+    "uploadedToast": "{{filename}}をアップロードしました",
+    "uploadErrorFallback": "{{filename}}をアップロードできませんでした"
+  },
+  "autoSave": {
+    "savedToast": "保存しました",
+    "versionConflictToast": "自動保存を一時停止しました。ほかのユーザーがページを変更しました。続けるには手動で保存してください。",
+    "errorFallback": "自動保存に失敗しました"
+  },
+  "frontmatterValidation": {
+    "tagsWhitespace": "タグの先頭や末尾に空白を含めることはできません。",
+    "tagsEmpty": "タグを空にすることはできません。",
+    "tagsUnique": "タグは重複しないようにしてください。",
+    "keyEmpty": "プロパティーのキーを空にすることはできません。",
+    "keyWhitespace": "プロパティーのキーの先頭や末尾に空白を含めることはできません。",
+    "keyReservedPrefix": "プロパティーのキーに、予約済みの接頭辞が使われています。",
+    "keyReserved": "このプロパティーのキーは予約済みです。",
+    "keyUnique": "プロパティーのキーは重複しないようにしてください。",
+    "valueType": "プロパティーの値は、文字列、数値、真偽値、または平らなリストにしてください。"
+  },
+  "titleBar": {
+    "dirtyIndicator": "（変更あり）"
+  }
+}

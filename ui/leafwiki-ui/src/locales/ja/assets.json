@@ -1,0 +1,35 @@
+{
+  "manager": {
+    "title": "ファイル",
+    "fileTooLarge": "ファイルが大きすぎます。上限は{{maxSize}}です。",
+    "uploadErrorFallback": "ファイルのアップロードに失敗しました",
+    "dropzoneText": "ここにファイルをドロップするか、クリックしてアップロード",
+    "maxFileSize": "最大ファイルサイズ：{{maxSize}}",
+    "uploading_one": "{{count}}件のファイルをアップロードしています…",
+    "uploading_other": "{{count}}件のファイルをアップロードしています…",
+    "loading": "ファイルを読み込んでいます…",
+    "empty": "ファイルはまだありません",
+    "tip": "ヒント：ダブルクリックすると標準のマークアップを挿入します。画像とPDFはリンクとしても追加でき、音声・動画には再生プレーヤーの挿入ボタンがあります。"
+  },
+  "item": {
+    "renameSuccess": "ファイル名を変更しました",
+    "renameErrorFallback": "名前の変更に失敗しました",
+    "deleteSuccess": "ファイルを削除しました",
+    "deleteErrorFallback": "削除に失敗しました",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "insertImageLink": "画像のリンクを挿入",
+    "insertPdfLink": "PDFのリンクを挿入",
+    "insertAudioPlayer": "音声プレーヤーを挿入",
+    "insertVideoPlayer": "動画プレーヤーを挿入",
+    "insertImage": "画像を挿入",
+    "insertPdf": "PDFを挿入",
+    "insertLink": "リンクを挿入",
+    "rename": "名前を変更",
+    "delete": "削除"
+  },
+  "dialog": {
+    "title": "ファイル管理",
+    "description": "ページに挿入するファイルをアップロードまたは選択します。"
+  }
+}
