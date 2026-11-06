@@ -1,0 +1,48 @@
+{
+  "pageTitle": "ブランディング設定",
+  "storeErrors": {
+    "loadFallback": "ブランディングを読み込めませんでした",
+    "updateFallback": "ブランディングを更新できませんでした",
+    "uploadLogoFallback": "ロゴをアップロードできませんでした",
+    "uploadFaviconFallback": "ファビコンをアップロードできませんでした",
+    "deleteLogoFallback": "ロゴを削除できませんでした",
+    "deleteFaviconFallback": "ファビコンを削除できませんでした"
+  },
+  "siteName": {
+    "title": "サイト名",
+    "description": "ヘッダー、ページタイトル、ログイン画面に表示される名前です。",
+    "label": "サイト名",
+    "placeholder": "LeafWiki"
+  },
+  "logo": {
+    "title": "ロゴ",
+    "description": "ヘッダーのサイト名の横に表示されるロゴです。",
+    "currentLabel": "現在のロゴ：",
+    "noLogo": "ロゴはアップロードされていません",
+    "uploadLabel": "ロゴをアップロード",
+    "uploadButton": "画像をアップロード",
+    "hint": "対応形式：{{exts}}、最大サイズ：{{size}}MB"
+  },
+  "favicon": {
+    "title": "ファビコン",
+    "description": "ブラウザーのタブに表示されるアイコンです。",
+    "currentLabel": "現在のファビコン：",
+    "noFavicon": "標準のファビコンを使用しています",
+    "uploadLabel": "ファビコンをアップロード",
+    "uploadButton": "ファビコンをアップロード",
+    "hint": "対応形式：{{exts}}、最大サイズ：{{size}}MB"
+  },
+  "save": "設定を保存",
+  "toast": {
+    "logoDeleted": "ロゴを削除しました",
+    "logoDeleteFailed": "ロゴを削除できませんでした",
+    "faviconDeleted": "ファビコンを削除しました",
+    "faviconDeleteFailed": "ファビコンを削除できませんでした",
+    "brandingSaved": "ブランディング設定を保存しました",
+    "brandingSaveFailed": "ブランディング設定を保存できませんでした",
+    "logoUploaded": "ロゴをアップロードしました",
+    "logoUploadFailed": "ロゴをアップロードできませんでした",
+    "faviconUploaded": "ファビコンをアップロードしました",
+    "faviconUploadFailed": "ファビコンをアップロードできませんでした"
+  }
+}

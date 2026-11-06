@@ -1,0 +1,44 @@
+{
+  "restoreButton": "復元",
+  "restoreConfirmTitle": "このバックアップを復元しますか？",
+  "restoreConfirmDescription": "現在のコンテンツ、ユーザー、設定のすべてが、このバックアップの内容で上書きされます。あなたを含むすべてのユーザーが直ちにログアウトされ、全員が再ログインする必要があります。復元の実行中は、書き込みが一時的に無効になります。この操作は取り消せません。",
+  "restoreConfirmCancel": "キャンセル",
+  "restoreConfirmAction": "復元",
+  "restoring": "復元しています…",
+  "uploadSectionTitle": "アップロードしたバックアップから復元",
+  "uploadSectionDescription": "別の場所にあるバックアップのZIPから復元します。以前にダウンロードしたものや、別のインスタンスからコピーしたものなどが使えます。",
+  "uploadSelectButton": "ZIPファイルを選択",
+  "currentFileLabel": "現在のZIP：",
+  "noFileSelected": "ZIPファイルが選択されていません",
+  "uploadConfirmTitle": "アップロードしたバックアップを復元しますか？",
+  "uploadConfirmDescription": "現在のコンテンツ、ユーザー、設定のすべてが、アップロードしたバックアップの内容で上書きされます。あなたを含むすべてのユーザーが直ちにログアウトされ、全員が再ログインする必要があります。復元の実行中は、書き込みが一時的に無効になります。この操作は取り消せません。",
+  "uploadConfirmCancel": "キャンセル",
+  "uploadConfirmAction": "復元",
+  "progressLabel": "現在の段階",
+  "resyncTailLabel": "復元が完了しました。再読み込みの前に、検索インデックスを再構築しています",
+  "progress": {
+    "validating": "バックアップを検証中",
+    "swapping": "ファイルを入れ替え中",
+    "reopening_auth": "ユーザーデータベースを開き直し中",
+    "invalidating_sessions": "セッションを無効化中",
+    "reloading_branding": "ブランディングを再読み込み中",
+    "tree": "ページツリーを再構築中",
+    "links": "リンクをインデックス化中",
+    "tags": "タグとプロパティーを再構築中",
+    "search": "検索をインデックス化中"
+  },
+  "versionWarningLabel": "バージョンの不一致",
+  "needsInterventionTitle": "復元に対応が必要です",
+  "needsInterventionDescription": "復元を正常に完了できず、このインスタンスが部分的に復元された状態になっている可能性があります。この問題が解消するまで、書き込みは無効のままです。サーバーを今すぐ再起動すると、ディスク上にある内容が実際に読み込み直されます。これが、整合性のある状態に戻すための推奨の方法です。",
+  "selfRestartButton": "サーバーを今すぐ再起動",
+  "selfRestarting": "サーバーを再起動しています…数秒後に、このページが自動的に再読み込みされます。",
+  "toast": {
+    "restoreAlreadyRunning": "復元はすでに実行中です",
+    "restoreFailed": "復元に失敗しました",
+    "restoreSucceeded": "復元が完了しました。再読み込みしています…",
+    "restoreSucceededResyncUnconfirmed": "復元は完了しましたが、検索インデックスの再構築が終わったかどうかを確認できませんでした。再読み込みします。検索結果が古いようであれば、エクスプローラーの更新ボタンを押してください。"
+  },
+  "errors": {
+    "jobLost": "復元のジョブが失われました。サーバーが再起動した可能性があります"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sidebar": {
+    "explorerTab": "エクスプローラー",
+    "searchTab": "検索"
+  },
+  "errorBoundary": {
+    "heading": "問題が発生しました",
+    "body": "予期しないエラーが発生しました。ページを再読み込みすると解決することが多いです。",
+    "reloadButton": "ページを再読み込み",
+    "tryRecoverButton": "復旧を試す",
+    "detailsSummary": "エラーの詳細"
+  },
+  "page404": {
+    "heading": "ページが見つかりません",
+    "body": "お探しのページは存在しません。",
+    "createPrompt": "下のボタンを押すと、このページを作成できます。",
+    "createButton": "ページを作成"
+  },
+  "unsavedChangesDialog": {
+    "title": "未保存の変更",
+    "description": "未保存の変更があります。このページから移動してもよろしいですか？ 保存されていないデータは失われます。",
+    "cancelButton": "キャンセル",
+    "leaveAnywayButton": "このまま移動する"
+  },
+  "dialog": {
+    "closeSrOnly": "閉じる"
+  },
+  "validation": {
+    "failedToast": "入力内容の検証に失敗しました"
+  },
+  "configLoad": {
+    "fetchErrorFallback": "設定を読み込めませんでした：{{status}} {{statusText}}",
+    "errorFallback": "設定を読み込めませんでした"
+  },
+  "language": {
+    "selfName": "日本語"
+  },
+  "pagination": {
+    "prev": "← 前へ",
+    "next": "次へ →",
+    "pageOf": "{{page}}/{{total}}ページ"
+  }
+}

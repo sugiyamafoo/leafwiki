@@ -1,0 +1,129 @@
+{
+  "common": {
+    "page": "ページ",
+    "section": "セクション",
+    "pageCapitalized": "ページ",
+    "sectionCapitalized": "セクション",
+    "cancel": "キャンセル",
+    "errorPrefix": "エラー：{{error}}",
+    "unknownError": "不明なエラーが発生しました"
+  },
+  "addDialog": {
+    "slugNotGenerated": "スラッグを生成できませんでした。手動で入力してください。",
+    "slugStillGenerating": "スラッグの生成が終わるまでお待ちください。",
+    "createdToast": "{{item}}を作成しました",
+    "createErrorFallback": "{{item}}の作成中にエラーが発生しました",
+    "create": "作成",
+    "createAndEdit": "{{item}}を作成して編集",
+    "titlePage": "新しいページを作成",
+    "titleSection": "新しいセクションを作成",
+    "descriptionPage": "新しいページのタイトルを入力してください",
+    "descriptionSection": "新しいセクションのタイトルを入力してください",
+    "titleLabel": "タイトル",
+    "titlePlaceholder": "{{item}}のタイトル",
+    "pathPrefix": "パス："
+  },
+  "moveDialog": {
+    "movedToast": "ページを移動しました",
+    "moveErrorFallback": "{{item}}の移動中にエラーが発生しました",
+    "title": "{{item}}を移動",
+    "description": "この{{item}}の新しい親を選択してください",
+    "move": "移動"
+  },
+  "deleteDialog": {
+    "loadReferencesErrorFallback": "ページの参照を読み込めませんでした",
+    "deletedToast": "{{item}}を削除しました",
+    "deleteErrorFallback": "{{item}}の削除中にエラーが発生しました",
+    "title": "{{item}}を削除しますか？",
+    "description": "{{item}}「{{name}}」を削除してもよろしいですか？ この操作は取り消せません。",
+    "deleting": "削除しています…",
+    "delete": "削除",
+    "modifiedWarningTitle": "このページは、ほかのユーザーによって変更されました。",
+    "modifiedWarningBody": "ページを更新しました。それでも削除しますか？",
+    "backlinksLoading": "このページを参照しているページを確認しています…",
+    "backlinksError": "ページの参照を読み込めませんでした。削除は実行できますが、リンクへの影響は表示できません。",
+    "backlinksWarning_one": "このページは{{count}}件のページから参照されています。",
+    "backlinksWarning_other": "このページは{{count}}件のページから参照されています。",
+    "backlinksWarningBody": "このページを削除すると、それらのリンクが切れます。",
+    "noBacklinks": "このページを参照しているページは、現在ありません。",
+    "deleteSubpages": "すべてのサブページも削除する"
+  },
+  "sortDialog": {
+    "dragToReorder": "ドラッグして並べ替え",
+    "sortedToast": "{{item}}の子を並べ替えました",
+    "sortErrorFallback": "{{item}}の子の並べ替え中にエラーが発生しました",
+    "title": "{{item}}の子を並べ替え",
+    "description": "項目をドラッグするか、矢印を使うか、並べ替えの選択肢を選んで並べ替えます。変更は「保存」を押すと保存されます。",
+    "save": "保存",
+    "sortAlphabetically": "名前順に並べ替え：",
+    "ascending": "A → Z",
+    "descending": "Z → A",
+    "sortSections": "セクションのまとめ方：",
+    "sectionsFirst": "セクションを先頭に",
+    "sectionsLast": "セクションを末尾に"
+  },
+  "copyDialog": {
+    "slugNotGenerated": "スラッグを生成できませんでした。手動で入力してください。",
+    "slugStillGenerating": "スラッグの生成が終わるまでお待ちください。",
+    "copiedToast": "{{item}}をコピーしました",
+    "copyErrorFallback": "{{item}}のコピー中にエラーが発生しました",
+    "copyOfTitle": "{{title}}のコピー",
+    "title": "{{item}}をコピー",
+    "description": "この{{item}}のコピーを作成します",
+    "copying": "コピーしています…",
+    "copyAndEdit": "{{item}}をコピーして編集",
+    "titleLabel": "タイトル",
+    "titlePlaceholder": "{{item}}のタイトル",
+    "pathPrefix": "パス："
+  },
+  "permalinkDialog": {
+    "copyErrorToast": "パーマリンクをコピーできませんでした",
+    "copiedToast": "パーマリンクをコピーしました",
+    "title": "ページを共有",
+    "description": "{{title}}への固定リンク",
+    "close": "閉じる",
+    "urlLabel": "固定リンク",
+    "copyLink": "リンクをコピー",
+    "openLink": "リンクを開く",
+    "purposeNote": "これは恒久的な内部リンクです。ページの名前を変更したり移動したりしても使い続けられるため、ブックマークや、ほかのページからの参照に安心して使えます。",
+    "accessNote": "公開リンクではありません。ウィキ全体が公開に設定されている場合を除き、このリンクを受け取った人も、開くにはこのウィキへのサインインが必要です。LeafWikiでは、ほかのページを非公開にしたまま、特定の1ページだけを公開することはできません。"
+  },
+  "createByPathDialog": {
+    "createdToast": "ページを作成しました",
+    "createErrorFallback": "ページの作成中にエラーが発生しました",
+    "title": "新しいページを作成",
+    "description": "タイトルを入力してください",
+    "creating": "作成しています…",
+    "create": "作成",
+    "createAndEdit": "作成して編集",
+    "existsAlert": "このパスには、すでにページが存在します。",
+    "lookupResultTitle": "パスの照会結果：",
+    "segmentExists": "存在します",
+    "segmentWillBeCreated": "作成されます",
+    "titleLabel": "タイトル",
+    "titlePlaceholder": "ページのタイトル",
+    "pathLabel": "パス",
+    "pathPlaceholder": "ページのパス"
+  },
+  "select": {
+    "topLevel": "最上位",
+    "searchPlaceholder": "ページを検索…",
+    "searchAriaLabel": "ページを検索",
+    "noPagesFound": "ページが見つかりません。",
+    "pagesAriaLabel": "ページ"
+  },
+  "refactorDialog": {
+    "title": "参照を更新しますか？",
+    "description": "この変更はページのパスに影響します。続ける前に、影響を受けるページを確認してください。",
+    "saveWithoutRewrite": "リンクを更新せずに保存",
+    "continue": "続行",
+    "oldPath": "変更前のパス：",
+    "newPath": "変更後のパス：",
+    "updateLinksLabel": "参照元ページのリンクを自動で更新する",
+    "referencingPages": "参照元のページ（{{count}}）",
+    "noReferences": "このパスを参照しているページはありません。"
+  },
+  "historyPage": {
+    "backToPage": "ページに戻る"
+  }
+}
